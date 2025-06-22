@@ -16,7 +16,7 @@ Create a global web and mobile platform where anyone, regardless of age, race, o
 - Register and list skills they can teach (only in their native language)
 - Set their own hourly or session-based pricing
 - Offer live, interactive sessions (1:1 or small group)
-- Get paid, with a **20% platform commission** applied
+
 
 ### 👩‍🎓 Learners
 - Sign up and search for skills by category, language, and audience type
