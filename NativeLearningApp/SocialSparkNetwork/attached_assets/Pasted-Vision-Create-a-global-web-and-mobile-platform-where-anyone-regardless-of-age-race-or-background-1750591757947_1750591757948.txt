@@ -1,0 +1,166 @@
+Vision:
+Create a global web and mobile platform where anyone, regardless of age, race, or background, can teach or learn skills in their native language. The goal is to make skill-sharing universally accessible and culturally relevant.
+
+Core User Roles:
+
+Teachers
+
+Register and list skills they can teach (only in their native language)
+
+Set their own hourly or session-based pricing
+
+Offer live, interactive sessions (1:1 or small group)
+
+Get paid, with a 20% platform commission applied
+
+Learners
+
+Sign up and search for skills by category, language, and audience type
+
+Book lessons based on availability, skill level, and teacher reviews
+
+Pay via integrated gateway; receive session links and reminders
+
+Skill Categorization System:
+
+A. By Audience:
+
+Students (GCSE, A-Level, IB, High School, etc.)
+
+University Students (Subject-specific help)
+
+Working Professionals (Career-oriented skills)
+
+General Learners (Hobbies, casual interests)
+
+B. By Skill Type:
+
+Academic Subjects
+
+Programming & Tech (Python, Java, AI, DevOps)
+
+Business & Finance (Excel, Project Mgmt, Accounting)
+
+Creative & Design (Video Editing, Music, Art)
+
+Communication & Soft Skills
+
+Career Coaching (Resume, Interview prep)
+
+Language Exchange (non-tutorial conversational)
+
+Key Features:
+
+Native Language Search & Matchmaking
+
+Dynamic Pricing (Teacher sets price)
+
+AI Chatbot Assistant for instant support (tech help, FAQ, bookings)
+
+User Reviews and Ratings
+
+Commission Handling: Platform retains 20% per booking
+
+Support for Local Currencies and Timezones
+
+Technical MVP Stack (Suggested with Cost Comparison):
+
+Component
+
+FlutterFlow Stack
+
+Next.js Stack
+
+Notes
+
+Frontend
+
+FlutterFlow  $30–70/mo (Pro/Team plans)
+
+Next.js (React)  Free (Open Source)
+
+FlutterFlow saves time but costs monthly; Next.js is dev-heavy
+
+Backend
+
+Firebase Functions (Free → ~$25+/mo for usage)
+
+Node.js + Express or Django REST (Free)
+
+Firebase is serverless/pay-as-you-go; custom backend gives control
+
+Database
+
+Firebase Firestore or Supabase (Free → $25+/mo)
+
+PostgreSQL (e.g., Supabase, Railway) – $0–25/mo
+
+Supabase is easier with FlutterFlow & Next.js both
+
+Authentication
+
+Firebase Auth (Free tier generous)
+
+Auth0 (Free → $23+/mo) or Firebase Auth
+
+Firebase is cost-effective and simple
+
+AI Chatbot
+
+OpenAI GPT API  $0.001–0.03/request
+
+OpenAI GPT API  Same pricing
+
+Cost is per usage; no infra cost unless using Dialogflow Enterprise
+
+Payments
+
+Stripe / Razorpay (Fee per transaction)
+
+Stripe / Razorpay (same)
+
+No platform-specific difference here
+
+Hosting
+
+FlutterFlow hosting included
+
+Vercel/Netlify/Heroku (Free → $20+/mo)
+
+FlutterFlow hosting is bundled; Next.js has flexible options
+
+Dev Time / Hiring
+
+1–2 Freelancers  ~£800–£2,000 MVP
+
+1 Full-stack Dev  ~£1,500–£4,000 MVP
+
+FlutterFlow MVP is faster; custom dev is higher cost but scalable
+
+Long-term Scaling
+
+⚠️ May need migration to Flutter/Dart manually
+
+✅ Easy to scale/customize
+
+Next.js is better for complex growth
+
+Summary Recommendations:
+
+Best for MVP: FlutterFlow + Firebase (fastest and lowest cost to launch)
+
+Best for Scale: Next.js + Node.js/Django + Supabase (more control and flexibility)
+
+Hybrid Option: Start with FlutterFlow for MVP → migrate to Flutter or Next.js stack when scaling
+
+Next Steps:
+
+Create wireframes for Teacher and Learner dashboards
+
+Build MVP on Replit (backend + basic UI)
+
+Collect early feedback from potential users
+
+Iterate based on feedback
+
+Prepare pitch for funding / incubation support
